@@ -19,3 +19,64 @@
         margin-top: 1em;
     }
 }
+
+@media (min-width: 1920px) {
+    .container {
+        width: calc(100% - 15em);
+    }
+
+    .title {
+        font-size: 3rem;
+        padding: 0.8em;
+        font-weight: 4em;
+        border-bottom: 0.01em solid #c7c7c7;
+    }
+
+    .accordion__item {
+        padding: 2em;
+    }
+
+    .accordion__item label {
+        font-size: 2rem;
+    }
+
+    ul:hover label {
+        color: black;
+    }
+
+    input:checked ~ img {
+        width: 30%;
+    }
+
+    .accordion__item:hover img {
+        width: 30%;
+    }
+
+    .accordion__item:active img {
+        z-index: -2;
+        opacity: 0.6;
+    }
+
+    .accordion__item:active label {
+        z-index: -2;
+        color: rgb(54, 85, 187);
+        opacity: 0.8;
+    }
+
+    .accordion__item:hover .icon {
+        transform: rotate(90deg);
+    }
+
+    .accordion:hover span {
+        opacity: 1;
+    }
+
+    .accordion__item label span {
+        opacity: 0;
+    }
+
+    input:checked ~ img {
+        width: 30%;
+        margin-top: 0;
+    }
+}
