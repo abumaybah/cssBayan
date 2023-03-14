@@ -1,0 +1,84 @@
+@media (min-width: 820px) {
+    .container {
+        width: calc(100% - 5em);
+    }
+
+    .title {
+        font-size: 2.3rem;
+        padding: 0.5em;
+        font-weight: 3em;
+        border-bottom: 0.01em solid #c7c7c7;
+    }
+
+    .accordion__item label {
+        font-size: 1.5rem;
+    }
+
+    input:checked ~ img {
+        width: 40%;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 1650px) {
+    .container {
+        width: calc(100% - 15em);
+    }
+
+    .title {
+        font-size: 3rem;
+        padding: 0.8em;
+        font-weight: 4em;
+        border-bottom: 0.01em solid #c7c7c7;
+    }
+
+    .accordion__item {
+        padding: 2em;
+    }
+
+    .accordion__item label {
+        font-size: 2rem;
+    }
+
+    ul:hover label {
+        color: black;
+    }
+
+    input:checked ~ img {
+        width: 30%;
+    }
+
+    .accordion__item:hover img {
+        width: 30%;
+    }
+
+    .accordion__item:active img {
+        opacity: 0.6;
+    }
+
+    .accordion__item:active label {
+        color: rgb(54, 85, 187);
+        opacity: 0.8;
+    }
+
+    .accordion__item:hover .icon {
+        transform: rotate(90deg);
+    }
+
+    .accordion:hover span {
+        opacity: 1;
+    }
+
+    .accordion__item label span {
+        opacity: 0;
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    input:checked ~ .label-img img {
+        width: 30%;
+        margin-top: 0;
+    }
+}
