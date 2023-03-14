@@ -20,7 +20,7 @@
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1650px) {
     .container {
         width: calc(100% - 15em);
     }
