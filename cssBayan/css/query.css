@@ -53,12 +53,10 @@
     }
 
     .accordion__item:active img {
-        z-index: -2;
         opacity: 0.6;
     }
 
     .accordion__item:active label {
-        z-index: -2;
         color: rgb(54, 85, 187);
         opacity: 0.8;
     }
@@ -75,7 +73,7 @@
         opacity: 0;
     }
 
-    input:checked ~ img {
+    input:checked ~ .label-img img {
         width: 30%;
         margin-top: 0;
     }
