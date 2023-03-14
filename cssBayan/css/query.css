@@ -73,6 +73,10 @@
         opacity: 0;
     }
 
+    label {
+        cursor: pointer;
+    }
+
     input:checked ~ .label-img img {
         width: 30%;
         margin-top: 0;

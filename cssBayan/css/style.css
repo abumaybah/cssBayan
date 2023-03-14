@@ -31,10 +31,6 @@ input:checked ~ label {
     color: black;
 }
 
-input {
-    cursor: pointer;
-}
-
 .accordion__item label {
     font-weight: 700;
     color: rgb(54, 85, 187);
